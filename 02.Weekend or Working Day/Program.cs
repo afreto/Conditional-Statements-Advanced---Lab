@@ -24,10 +24,7 @@ namespace _02.Weekend_or_Working_Day
                 default:
                     Console.WriteLine("Error");
                     break;
-
             }
-
-
         }
     }
 }

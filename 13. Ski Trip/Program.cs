@@ -23,6 +23,7 @@ namespace _13._Ski_Trip
                     priceForSleep = (days - 1) * 35.00;
                     break;
             }
+
             switch (roomType)
             {
                 case "apartment":
@@ -38,6 +39,7 @@ namespace _13._Ski_Trip
                     {
                         discount = 0.50;
                     }
+
                     break;
                 case "president apartment":
                     if (days < 10)
@@ -52,10 +54,11 @@ namespace _13._Ski_Trip
                     {
                         discount = 0.20;
                     }
+
                     break;
             }
-            double totalSum = priceForSleep - (priceForSleep * discount);
 
+            double totalSum = priceForSleep - (priceForSleep * discount);
             switch (feedback)
             {
                 case "positive":
@@ -65,6 +68,7 @@ namespace _13._Ski_Trip
                     totalSum -= totalSum * 0.10;
                     break;
             }
+
             Console.WriteLine($"{totalSum:f2}");
         }
     }

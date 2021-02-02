@@ -7,7 +7,6 @@ namespace _09._Fruit_or_Vegetable
         static void Main(string[] args)
         {
             string product = Console.ReadLine().ToLower();
-
             switch (product)
             {
                 case "banana":
@@ -18,7 +17,6 @@ namespace _09._Fruit_or_Vegetable
                 case "grapes":
                     Console.WriteLine("fruit");
                     break;
-
                 case "tomato":
                 case "cucumber":
                 case "pepper":
@@ -29,8 +27,6 @@ namespace _09._Fruit_or_Vegetable
                     Console.WriteLine("unknown");
                     break;
             }
-
-
         }
     }
 }

@@ -5,7 +5,7 @@ namespace _04._Personal_Titles
     class Program
     {
         static void Main(string[] args)
-        {
+        { 
             double age = double.Parse(Console.ReadLine());
             string gender = Console.ReadLine().ToLower();
             if (gender == "m")

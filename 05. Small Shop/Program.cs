@@ -30,8 +30,6 @@ namespace _05._Small_Shop
                         case "peanuts":
                             productPrice = 1.60;
                             break;
-                        default:
-                            break;
                     }
                     break;
                 case "plovdiv":
@@ -52,8 +50,6 @@ namespace _05._Small_Shop
                         case "peanuts":
                             productPrice = 1.50;
                             break;
-                        default:
-                            break;
                     }
                     break;
                 case "varna":
@@ -73,8 +69,6 @@ namespace _05._Small_Shop
                             break;
                         case "peanuts":
                             productPrice = 1.55;
-                            break;
-                        default:
                             break;
                     }
                     break;

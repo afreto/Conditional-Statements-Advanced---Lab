@@ -6,10 +6,8 @@ namespace _08.Cinema_Ticket
     {
         static void Main(string[] args)
         {
-
             string day = Console.ReadLine().ToLower();
-            int price=0;
-
+            int price = 0;
             switch (day)
             {
                 case "monday":
@@ -32,8 +30,6 @@ namespace _08.Cinema_Ticket
                     break;
                 case "sunday":
                     price = 16;
-                    break;
-                default:
                     break;
             }
             Console.WriteLine(price);

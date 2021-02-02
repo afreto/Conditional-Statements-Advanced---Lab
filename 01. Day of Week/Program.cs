@@ -34,7 +34,6 @@ namespace _01._Day_of_Week
                     Console.WriteLine("Error");
                     break;
             }
-
         }
     }
 }

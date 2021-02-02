@@ -7,7 +7,6 @@ namespace _03._Animal_Type
         static void Main(string[] args)
         {
             string animal = Console.ReadLine().ToLower();
-
             switch (animal)
             {
                 case "dog":
@@ -22,7 +21,6 @@ namespace _03._Animal_Type
                     Console.WriteLine("unknown");
                     break;
             }
-
         }
     }
 }

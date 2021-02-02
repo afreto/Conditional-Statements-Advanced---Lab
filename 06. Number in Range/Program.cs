@@ -6,11 +6,8 @@ namespace _06._Number_in_Range
     {
         static void Main(string[] args)
         {
-
-
             double num = double.Parse(Console.ReadLine());
-
-            if (num >= -100 && num<= 100 && num != 0)
+            if (num >= -100 && num <= 100 && num != 0)
             {
                 Console.WriteLine("Yes");
             }
@@ -18,7 +15,6 @@ namespace _06._Number_in_Range
             {
                 Console.WriteLine("No");
             }
-
         }
     }
 }

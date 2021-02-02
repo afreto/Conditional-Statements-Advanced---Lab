@@ -10,7 +10,6 @@ namespace _11._Fruit_Shop
             string dayOfWeek = Console.ReadLine().ToLower();
             double qty = double.Parse(Console.ReadLine());
             double fruitPrice = 0.0;
-
             switch (dayOfWeek)
             {
                 case "monday":
@@ -18,7 +17,6 @@ namespace _11._Fruit_Shop
                 case "wednesday":
                 case "thursday":
                 case "friday":
-
                     switch (fruit)
                     {
                         case "banana":
@@ -45,12 +43,11 @@ namespace _11._Fruit_Shop
                         default:
                             Console.WriteLine("error");
                             break;
-
                     }
+
                     break;
                 case "saturday":
                 case "sunday":
-
                     switch (fruit)
                     {
                         case "banana":
@@ -74,17 +71,17 @@ namespace _11._Fruit_Shop
                         case "grapes":
                             fruitPrice = 4.20;
                             break;
-
-
                         default:
                             Console.WriteLine("error");
                             break;
                     }
+
                     break;
                 default:
                     Console.WriteLine("error");
                     break;
             }
+
             if (fruitPrice != 0)
             {
                 Console.WriteLine($"{qty * fruitPrice:f2}");

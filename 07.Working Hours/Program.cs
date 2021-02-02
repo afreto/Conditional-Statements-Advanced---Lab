@@ -8,7 +8,6 @@ namespace _07.Working_Hours
         {
             int hour = int.Parse(Console.ReadLine());
             string day = Console.ReadLine().ToLower();
-
             switch (day)
             {
                 case "monday":
@@ -30,7 +29,6 @@ namespace _07.Working_Hours
                     Console.WriteLine("closed");
                     break;
             }
-            
-        }
+            }
     }
 }
